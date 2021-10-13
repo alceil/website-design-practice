@@ -82,4 +82,26 @@ color: #2e81f4;
     border-radius: 10px;
     align-items: center;
     padding: 0 30px;
+    border-bottom: none;
+}
+
+
+.header__info{
+    display: flex;
+    align-items: center;
+}
+
+.header__info h4{
+margin-left: 10px;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+
+.header__right .material-icons{
+    color: gray;
+    margin: 0 10px;
+    cursor: pointer;
 }
