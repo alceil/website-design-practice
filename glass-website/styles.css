@@ -4,7 +4,27 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: .8;
+    color: #426696;
+}
+h2,
+p{
+    font-weight: 500;
+    opacity: .8;
+    color: #658ec8;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 3rem;
+    color: #426696;   
+}
+
 main{
+    font-family: "Poppins", sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top,#65dfc9,#6cdbeb);
     display: flex;
@@ -19,7 +39,8 @@ main{
     background: linear-gradient(to right top,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
     border-radius: 2rem;
     z-index: 2;
-    backdrop-filter: blur(2rem) ;
+    backdrop-filter: blur(2rem);
+    display: flex;
 }
 
 .circle1,
@@ -40,4 +61,77 @@ main{
 .circle2{
     bottom: 5%;
     left: 10%;
+}
+
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right top,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.link{
+    display: flex;
+    margin:2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+.link h2{
+    padding: 0rem 2rem;
+}
+
+.games{
+    flex: 2;
+}
+.pro{
+    color: white;
+    border-radius: 2rem;
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    padding: 1rem;
+    position: relative;
+}
+
+.pro img{
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+
+.pro h2{
+    width: 40%;
+    color: white;
+    font-weight: 600;
+}
+/* Games */
+.status{
+    margin-bottom: 3rem;
+}
+
+
+.status input{
+    width: 50%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: linear-gradient(to right top,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+}
+
+.games{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 2rem;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+    display: flex;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    background: linear-gradient(to right top,rgba(255,255,255,1),rgba(255,255,255,0.8));
 }
