@@ -577,6 +577,19 @@ html::-webkit-scrollbar-thumb{
     color:var(--green);
 }
 
+.blogs .blogs-slider .box{
+    margin:2rem 0;
+    border:var(--border);
+}
+
+.blogs .blogs-slider .box:hover{
+    border:var(--border-hover);
+}
+.blogs .blogs-slider .box .image{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
 
 @media (max-width:991px){
 
