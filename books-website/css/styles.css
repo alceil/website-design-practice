@@ -533,7 +533,9 @@ html::-webkit-scrollbar-thumb{
 }
 
 .deal .content p{
-    
+    padding:1rem 0;
+    font-size: 1.4rem;
+    line-height: 2;
 }
 
 
