@@ -181,6 +181,11 @@ html::-webkit-scrollbar-thumb{
     width:100%;   
 }
 
+
+.login-form-container.active{
+    right:0;
+}
+
 .login-form-container form{
     background:#fff;
     border:var(--border);
@@ -257,6 +262,55 @@ html::-webkit-scrollbar-thumb{
 }
 
 
+.home{
+    background: url(../image/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.home .row .content{
+    flex:1 1 42rem;
+}
+
+.home .row .books-slider{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home .row .books-slider a img{
+    height: 25rem;
+}
+
+
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
+}
+
+.home .row .books-slider .stand{
+    width:100%;
+    margin-top: -2rem;
+}
+.home .row .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+.icons-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
 
 
 
@@ -322,6 +376,10 @@ html::-webkit-scrollbar-thumb{
         right:2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
+    }
+
+    .header .header-1 .search-form.active{
+        top:115%;
     }
 
 }
