@@ -40,6 +40,17 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background:var(--black);
 }
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+    color:#fff;
+    background:var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
 
 .header .header-1{
     background: #fff;
@@ -164,7 +175,7 @@ html::-webkit-scrollbar-thumb{
     justify-content: center;
    background:rgba(255,255,255,9);
     position:fixed;
-    top:0; left:0%;
+    top:0; right:-105%;
     z-index: 10000;
     height:100%;
     width:100%;   
@@ -236,6 +247,19 @@ html::-webkit-scrollbar-thumb{
     color:var(--green);
     
 }
+
+.login-form-container #close-login-btn{
+    position: absolute;
+    top:1.5rem; right:2.5rem;
+    font-size: 5rem; 
+    color:var(--black);
+    cursor: pointer;
+}
+
+
+
+
+
 @media (max-width:991px){
 
     html{
